@@ -1,0 +1,12 @@
+{
+  "name": "skinmatch",
+  "version": "1.0.0",
+  "description": "SkinMatch - Rule-Based Engine & Ingredient Conflict Detector (Kelompok 6, Universitas Tadulako)",
+  "private": true,
+  "scripts": {
+    "lint": "node scripts/lint.js",
+    "build": "node scripts/build.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
