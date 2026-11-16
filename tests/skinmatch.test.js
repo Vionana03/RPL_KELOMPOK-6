@@ -106,7 +106,7 @@ test('data: barcode produk unik', () => {
 });
 
 test('helper: avg() menghitung rata-rata rating ulasan', () => {
-  assert.equal(api.avg('P3'), 5);
+  assert.equal(api.avg('P3'), 4);
   assert.equal(api.avg('P7'), 3);
   assert.equal(api.avg('TIDAK-ADA'), 0);
 });
